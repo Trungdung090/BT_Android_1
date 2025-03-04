@@ -29,7 +29,7 @@
         <EditText
             android:layout_weight="2"
             android:id="@+id/sophong"
-            android:hint="VD: 102"
+            android:hint="VD: 201"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
@@ -67,7 +67,7 @@
         <EditText
             android:layout_weight="2"
             android:id="@+id/sogio"
-            android:hint="VD: 3"
+            android:hint="VD: 5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
@@ -90,7 +90,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:layout_weight="1"
             android:id="@+id/chuyen"
-            android:text="Chuyển Web"
+            android:text="Web"
             android:textStyle="bold"
             android:textSize="20dp"
             android:layout_marginEnd="10dp"
@@ -105,7 +105,7 @@
         <TextView
             android:id="@+id/ketqua"
             android:text="Tổng tiền:"
-            android:textSize="20dp"
+            android:textSize="23dp"
             android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
