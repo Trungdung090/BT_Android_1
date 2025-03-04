@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         tinh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TinhTien tien = new TinhTien();
+                TinhToan tien = new TinhToan();
                 tien.setLoaiPhong(loaiPhong.getText().toString());
                 tien.setSoGio(Float.parseFloat(soGio.getText().toString()));
                 ketqua.setText("Tổng tiền phòng "+soPhong.getText().toString()+": "+tien.tinhtoan()+"VND");

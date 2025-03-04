@@ -1,6 +1,6 @@
 package com.example.myapplication;
 
-public class TinhTien {
+public class TinhToan {
     private float soGio;
     private String loaiPhong;
     public double tinhtoan(){

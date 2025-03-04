@@ -56,7 +56,7 @@ public class MainActivity1 extends AppCompatActivity {
     @android.webkit.JavascriptInterface
     public void xuly(String name, String hours){
         float housr_fl = Float.parseFloat(hours);
-        TinhTien tien = new TinhTien();
+        TinhToan tien = new TinhToan();
         tien.setLoaiPhong(name);
         tien.setSoGio(housr_fl);
         double kq = tien.tinhtoan();
