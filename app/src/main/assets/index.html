@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phòng Đặt</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function NhanKQ(s){
+            document.getElementById('result').innerHTML = s;
+        }
+        function tinhtoan(){
+            var ten = document.getElementById('roomType').value;
+            var gio = document.getElementById('hours').value;
+            window.Android.xuly(ten, gio);
+        }
+    </script>
+</head>
+<body>
+
+<div class="info">
+    <h1>Thông tin cá nhân</h1>
+    <p><strong>Họ và tên:</strong>Đặng Trung Dũng</p>
+    <p><strong>MSSV:</strong>K215480106138</p>
+    <p><strong>Lớp:</strong>K57KMT</p>
+</div>
+
+<h1>Nhập Thông Tin Phòng</h1>
+<label for="roomType">Loại phòng:</label>
+<select id="roomType" name="roomType" required>
+    <option value="">-- Chọn loại phòng --</option>
+    <option value="thuong">thuong</option>
+    <option value="vip">vip</option>
+</select>
+<label for="room">Tên phòng:</label>
+<input type="text" id="room" name="room" placeholder="Nhập tên phòng" required>
+<label for="hours">Số giờ:</label>
+<input type="number" id="hours" name="hours" placeholder="Nhập số giờ" min="1" required>
+<button type="button" id="calculateBtn" onclick="tinhtoan()">Kết quả</button>
+<div id="result"></div>
+
+<img src="image/cat.jpg"/>
+
+<br>
+mp3 offline:
+<audio controls>
+    <source src="mp3/nhac.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<br>
+mp4 offline:
+<video width="350" height="240" controls>
+    <source src="mp4/vid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<br>
+
+
+ONLINE OK:
+<iframe width="100%" height="315"
+        src="https://www.youtube.com/watch?v=Dopuz63Vh28"
+        title="YouTube video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+</iframe>
+
+</body>
+</html>
